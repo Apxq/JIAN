@@ -1,0 +1,285 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+
+.page1{
+   background:url("../images/背景.jpg") no-repeat;
+   position:relative;
+   background-size: cover;
+}
+.page1>img{
+    position:absolute;
+}
+.ren{
+    width:3.5rem;
+    height:3.5rem;
+    right:1rem;
+    top:2rem;
+}
+.zi{
+    position:absolute;
+    font-size:0.32rem;
+    right:1rem;
+    top:7rem;
+    line-height:0.64rem;
+    color:#000;
+}
+
+.geren{
+    position:absolute;
+    font-size:0.8rem;
+    left:1.5rem;
+    top:4rem;
+    line-height:1rem;
+    color:#000;
+}
+
+
+
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/背景.jpg") center center no-repeat;
+    background-size:cover;
+}
+.qiu{
+    position:absolute;
+    font-size:0.8rem;
+    left:1rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.zhi{
+    position:absolute;
+    font-size:0.8rem;
+    left:2.5rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.yi{
+    position:absolute;
+    font-size:0.8rem;
+    left:4rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.xiang{
+    position:absolute;
+    font-size:0.8rem;
+    left:5.5rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.pingmian{
+    position:absolute;
+    font-size:0.6rem;
+    right:1.5rem;
+    top:6rem;
+    color:#000;
+    border: 1px solid black;
+    padding: 0.1rem;
+}
+.ui{
+    position:absolute;
+    font-size:0.6rem;
+    left:1.5rem;
+    top:7.5rem;
+    color:#000;
+    border: 1px solid black;
+    padding: 0.1rem;
+}
+.meigong{
+    position:absolute;
+    font-size:0.6rem;
+    right:1.5rem;
+    top:9rem;
+    color:#000;
+    border: 1px solid black;
+    padding: 0.1rem;
+}
+.yunduo{
+    width:3.66rem;
+    height:4.58rem;
+    left:0.2rem;
+    top:3rem;
+}
+
+
+
+
+
+
+
+/* page3 */
+.page3{
+    position:relative;
+    background:url("../images/背景.jpg");
+    background-size:cover;
+}
+.page3>img{
+    position: absolute;
+}
+.zuo{
+    position:absolute;
+    font-size:0.8rem;
+    left:1rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.pin{
+    position:absolute;
+    font-size:0.8rem;
+    left:2.5rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.zhan{
+    position:absolute;
+    font-size:0.8rem;
+    left:4rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.shi{
+    position:absolute;
+    font-size:0.8rem;
+    left:5.5rem;
+    top:2rem;
+    line-height:1rem;
+    color:#000;
+}
+.feng{
+    width: 2rem;
+    height: 2rem;
+    left:1.5rem;
+    top:3.5rem;
+}
+.ping{
+    width:2rem;
+    height:2rem;
+    left:4rem;
+    top:3.5rem;
+}
+.bei{
+    width:2rem;
+    height:2rem;
+    left:1.5rem;
+    top:6rem;
+}
+.hei{
+    width:2rem;
+    height: 2rem;
+    left:4rem;
+    top:6rem;
+}
+.zhi1{
+    width:4.7rem;
+    height:2.4rem;
+    left:1.5rem;
+    top:8.5rem;
+}
+
+/* page4 */
+.page4{
+    position:relative;
+    background:url("../images/背景.jpg");
+    background-size:cover;
+}
+.page4>img{
+    position: absolute;
+}
+.qi{
+    width: 5rem;
+    height: 7.21rem;
+    top:1rem;
+    left: 1.3rem;
+}
+.wei{
+    width: 3rem;
+    height: 3rem;
+    top:8rem;
+    left:2.3rem;
+}
+
+
+
+
+
+.music{
+   width:0.8rem;
+   height:0.8rem;
+   background:url("../images/花.png") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   right:0.2rem;
+   top:1rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite forwards;
+
+}
+@keyframes music{
+    100%{
+        transform: rotate(360deg);
+    }
+}
